@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(60deg,rgb(69, 208, 212) 40%,rgb(73, 199, 130) 40%);
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+textarea{
+  text-transform: unset;
+}
+.capitalize{
+  text-transform: capitalize;
+}
+.lowercase{
+  text-transform: lowercase;
+}
+.navbar{
+  box-shadow: 3px 3px 0px rgba(247, 247, 247, 0.329);
+  z-index: 3;
+}
+.about{
+  position: absolute;
+  width: 100%;
+  min-height: 91vh;
+  background:linear-gradient(rgba(0, 0, 0, 0.349),rgba(0, 0, 0, 0.322)),url(jpg/Khata\ book.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
